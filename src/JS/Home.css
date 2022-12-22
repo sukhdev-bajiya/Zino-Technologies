@@ -1,0 +1,98 @@
+.zino__homePage_body {
+  display: flex;
+  width: 100%;
+}
+.zino__homePage_stackBody {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.zino__homePage_stackItemUpadateDataBody {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  background: lightblue;
+  display: grid;
+  place-items: center;
+}
+
+.zino__homePage_stackBody > div:first-child {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+.zino__homePage_stackBody > div:first-child span {
+  font-size: 20px;
+  font-weight: 800;
+}
+.zino__homePage_stackBody > div:last-child {
+  display: flex;
+  flex-direction: column;
+  min-height: 50px;
+  height: 100%;
+}
+
+.zino__homePage_stackItemBody {
+  padding: 10px 5px;
+  color: white;
+  border-bottom: 4px solid white;
+  display: flex;
+}
+
+.zino__homePage_stackItemBody > div:first-child {
+  width: 100%;
+  min-height: 75px;
+  padding: 5px;
+}
+.zino__homePage_stackItemBody > div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.zino__homePage_stackItemBody > div:last-child span {
+  color: black;
+  background: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 2px 5px;
+}
+
+.zino__homePage_stackBody button,
+.zino__homePage_stackItemUpadateDataForm button {
+  font-size: 16px;
+  padding: 5px 10px;
+  background: none;
+  border: 1px solid gray;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  border-radius: 5px;
+}
+
+.zino__homePage_stackItemUpadateDataForm {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.zino__homePage_stackItemUpadateDataForm > div {
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  font-size: 16px;
+  padding: 5px 10px;
+  background: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  border-radius: 5px;
+}
